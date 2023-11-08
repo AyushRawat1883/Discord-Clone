@@ -7,7 +7,7 @@ import { Tooltip } from '@mui/material';
 const getFormNotValidMessage = ()=>{
   return 'Enter Corrent E-mail or Password' ;
 }
-const getFormValidMEssage = () =>{
+const getFormValidMessage = () =>{
   return 'please log in !!';
 }
 
@@ -21,7 +21,7 @@ const LoginPageFooter = ({handleLogin , isFormValid}) => {
   return (
     <>
     <Tooltip
-    title={!isFormValid ? getFormNotValidMessage() : getFormValidMEssage()}
+    title={!isFormValid ? getFormNotValidMessage() : getFormValidMessage()}
     >
     <div>
       <CustomPrimaryButtons 
