@@ -18,7 +18,7 @@ app.use('/api/auth' , authRoutes ) ;
 
 
 const server = http.createServer(app);
-socketServer.registerScoketServers(server);
+// socketServer.registerScoketServers(server);
  
 
 mongoose.connect(process.env.MONGO_URI)
